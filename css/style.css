@@ -1,0 +1,102 @@
+/* Single stylesheet shared by index.html, neighborhood.html and parks.html */
+
+/* Step 3: content tags - font family and font size */
+p,
+li {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+}
+
+body {
+  margin: 0;
+}
+
+/* Step 4: header (title area) - background color */
+header {
+  background-color: #00274c; /* U-M blue */
+  padding-bottom: 1rem;
+}
+
+header img {
+  display: block;
+  margin: 1rem auto 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Step 5: nav - background color */
+nav {
+  background-color: #ffcb05; /* maize */
+}
+
+nav ul {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Step 8: li - display and width */
+li {
+  display: inline-block;
+  width: 30%;
+  min-width: 10rem;
+  text-align: center;
+}
+
+nav a {
+  color: #00274c;
+  font-weight: bold;
+}
+
+/* Step 9: h1 - text alignment, font family and color */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #ffcb05;
+  margin: 0.75rem 0 0;
+}
+
+/* Step 6: main - background color and font size */
+main {
+  background-color: #f2f7fc;
+  color: #1a1a1a;
+  font-size: 1.25rem;
+  padding: 1.5rem 1rem;
+}
+
+main p {
+  max-width: 40rem;
+  margin: 0 auto 1rem;
+}
+
+main a {
+  color: #00539f;
+}
+
+/* Step 10: p - line height */
+p {
+  line-height: 1.7;
+}
+
+/* Step 7: footer - background color */
+footer {
+  background-color: #00274c;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #ffcb05;
+}
+
+a:focus-visible {
+  outline: 3px solid #ff6a00;
+  outline-offset: 2px;
+}
